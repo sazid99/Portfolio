@@ -43,7 +43,10 @@ function HeroSection() {
         </div>
         {/* third item */}
         <div id="third-item" className="three-items">
-          <img src="src\assets\profile.png" alt="#" />
+          <img
+            src="https://i.postimg.cc/Fzdv7Wrn/1706448605748-removebg-preview.png"
+            alt="#"
+          />
         </div>
       </div>
     </>
