@@ -1,0 +1,19 @@
+
+#side-icons{
+  display: flex;
+  position: absolute;
+  background-color: #99a0ad;
+  font-size: 2.5rem;
+  top: 30vh;
+  left: 5px;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 20px;
+}
+#side-icons a i{
+ margin-top: 7px;
+}
+#side-icons a:hover{
+  font-size: 3rem;
+  border-bottom: 3px solid aquamarine;
+}

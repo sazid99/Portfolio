@@ -1,0 +1,79 @@
+body{
+  background-color: #686D76;
+}
+#navbar {
+  height: 12vh;
+  width: 100%;
+  background-color: #99a0ad;
+}
+
+#contact-page {
+  height: 4vh;
+  width: 100%;
+  background-color: rgb(158, 129, 35);
+}
+
+#left-side-options {
+  padding-top: 8px;
+  padding-left: 12px;
+}
+
+#phone {
+  padding-left: 12.5vw;
+  color: green;
+}
+#phone-a {
+  padding-left: 1px;
+  text-decoration: none;
+  color: black;
+}
+
+#email {
+  padding-left: 15px;
+  color: green;
+}
+#email-a {
+  padding-left: 5px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: black;
+}
+
+#dark-light-mode {
+  float: right;
+  padding-right: 12vw;
+  font-size: 1.4rem;
+}
+#dark-light-mode:hover{
+  color: white;
+  font-size: 1.6rem;
+}
+
+#myName{
+  padding-left: 13vw;
+  font-size: 3.2rem;
+  padding-top: 2px;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+}
+
+
+#detail-page{
+  display: flex;
+}
+
+#right-info{
+  display: flex;
+  position: absolute;
+  right: 12vw;
+  top: 6.5vh;
+
+}
+
+.right-nav-info{
+  padding-left: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem ;
+}
