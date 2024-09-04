@@ -2,7 +2,7 @@ import "./HeroSection.css";
 
 function HeroSection() {
   return (
-    <>
+    <> 
       <div id="full-screen">
         {/* first item */}
         <div id="first-item" className="three-items">

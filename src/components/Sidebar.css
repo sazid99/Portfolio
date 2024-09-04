@@ -1,19 +1,42 @@
-
-#side-icons{
+#side-icons {
   display: flex;
   position: absolute;
-  background-color: #99a0ad;
+  background-color: #e5e7ec;
   font-size: 2.5rem;
-  top: 30vh;
+  top: 16vh;
   left: 5px;
   text-decoration: none;
   padding: 10px;
   border-radius: 20px;
 }
-#side-icons a i{
- margin-top: 7px;
+#sidebar {
+  position: fixed;
 }
-#side-icons a:hover{
+#side-icons a i {
+  margin-top: 7px;
+}
+#side-icons a:hover {
   font-size: 3rem;
   border-bottom: 3px solid aquamarine;
+}
+
+#phone-contact-btn {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  #side-icons {
+    display: none;
+  }
+  #phone-contact-btn {
+    display: flex;
+    position: absolute;
+    top: 92vh;
+    right: 2vw;
+    font-size: 2rem;
+    color: yellow;
+    border: 2px solid rgb(78, 217, 241);
+    border-radius: 50%;
+    padding: 5px;
+  }
 }

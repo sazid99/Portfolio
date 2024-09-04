@@ -9,6 +9,7 @@ function App() {
       <Sidebar/>
       <Navbar/>
       <HeroSection/>
+      <HeroSection/>
     </>
   );
 }
