@@ -1,8 +1,8 @@
-body{
-  background-color: #686D76;
+body {
+  background-color: #686d76;
   color: white;
 }
-#navbar-container{
+#navbar-container {
   top: 0;
   left: 0;
   width: 100%;
@@ -54,12 +54,12 @@ body{
   padding-right: 12vw;
   font-size: 1.4rem;
 }
-#dark-light-mode:hover{
+#dark-light-mode:hover {
   color: white;
   font-size: 1.6rem;
 }
 
-#myName{
+#myName {
   padding-left: 13vw;
   font-size: 3.2rem;
   padding-top: 2px;
@@ -67,51 +67,55 @@ body{
   color: black;
 }
 
-
-#detail-page{
+#detail-page {
   display: flex;
 }
 
-#right-info{
+#right-info {
   display: flex;
   position: absolute;
   right: 12vw;
   top: 5.5vh;
 }
-
-.right-nav-info{
+#nav-toogler-right {
+  margin-top: 5.2vh;
+  margin-right: 10.8vw;
+}
+.right-nav-info {
   margin-left: 15px;
   padding: 5px;
   text-decoration: none;
   color: black;
-  font-size: 1.5rem ;
+  font-size: 1.5rem;
 }
 
-.right-nav-info:hover{
+.right-nav-info:hover {
   color: white;
   border-bottom: 2px solid aqua;
   background-color: rgba(151, 224, 226, 0.336);
   border-radius: 5px;
 }
 
-@media only screen and (max-width: 768px){
-  #phone-a, #phone{
+/* media queries for 1400px and above */
+@media all and (min-width: 1400px) {
+  #nav-toogler-right {
     display: none;
-  }
-  #detail-page{
-    padding-top: 10px;
-    padding-left: 5px;
-  }
-  #right-info a{
-    display: none;
-  }
-  #detail-page h1{
-    padding-left: 0px;
-    font-size: 2.2rem;
   }
 }
-@media only screen and (min-width: 768px){
-  #right-info i{
+
+/* media queries for 950px to 1400px */
+@media all and (min-width: 950px) and (max-width: 1399px) {
+  #without-dropdown {
+    display: none;
+  }
+}
+
+/* media queries up to 950px */
+@media all and (max-width: 950px) {
+  #contact-page {
+    display: none;
+  }
+  #without-dropdown{
     display: none;
   }
 }

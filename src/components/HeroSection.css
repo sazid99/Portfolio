@@ -1,6 +1,6 @@
 #full-screen {
   height: 75vh;
-  width: 75vw;
+  width: 80vw;
   margin-top: 15vh;
   margin-left: 13vw;
   display: flex;
@@ -16,25 +16,29 @@
   width: 40%;
 }
 #first-item h1 {
-  padding-top: 5vh;
+  padding-top: 6vh;
+  font-size: 2rem;
 }
 #first-item p {
-  padding-top: 5vh;
+  padding-top: 4vh;
   font-size: 1.1rem;
 }
 #hire-resume {
-  padding-top: 3vh;
+  padding-top:4vh;
 }
 .hire-resume-btn {
   height: 3rem;
   width: 12rem;
   font-size: 1.1rem;
-  margin-top: 2vh;
-  margin-left: 2vw;
+  margin-top: 4vh;
+  margin-left: 1.5vw;
   border-radius: 10px;
   background-color: rgb(72, 218, 84);
   border: 2px solid tomato;
   color: black;
+}
+#resumebtn{
+  margin-left: 1vw;
 }
 .hire-resume-btn:hover {
   height: 3.3rem;
