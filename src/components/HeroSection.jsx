@@ -38,13 +38,14 @@ function HeroSection() {
             <i id="bounce-html" className="fa-brands fa-html5"></i>
             <i id="bounce-css" className="fa-brands fa-css3-alt"></i>
             <i id="bounce-js" className="fa-brands fa-js"></i>
+            <i id="bounce-bootstrap" className="fa-brands fa-bootstrap"></i>
             <i id="bounce-react" className="fa-brands fa-react"></i>
           </div>
         </div>
         {/* third item */}
         <div id="third-item" className="three-items">
           <img
-            src="https://i.postimg.cc/Fzdv7Wrn/1706448605748-removebg-preview.png"
+            src="https://i.postimg.cc/13d6HKXM/1706448605748-removebg-preview.png"
             alt="#"
           />
         </div>

@@ -9,27 +9,7 @@ body{
   z-index: 100;
   position: fixed;
 }
-@media only screen and (max-width: 768px){
-  #phone-a, #phone{
-    display: none;
-  }
-  #detail-page{
-    padding-top: 10px;
-    padding-left: 5px;
-  }
-  #right-info a{
-    display: none;
-  }
-  #detail-page h1{
-    padding-left: 0px;
-    font-size: 2.2rem;
-  }
-}
-@media only screen and (min-width: 768px){
-  #right-info i{
-    display: none;
-  }
-}
+
 #navbar {
   height: 12vh;
   width: 100%;
@@ -96,7 +76,7 @@ body{
   display: flex;
   position: absolute;
   right: 12vw;
-  top: 6vh;
+  top: 5.5vh;
 }
 
 .right-nav-info{
@@ -112,4 +92,26 @@ body{
   border-bottom: 2px solid aqua;
   background-color: rgba(151, 224, 226, 0.336);
   border-radius: 5px;
+}
+
+@media only screen and (max-width: 768px){
+  #phone-a, #phone{
+    display: none;
+  }
+  #detail-page{
+    padding-top: 10px;
+    padding-left: 5px;
+  }
+  #right-info a{
+    display: none;
+  }
+  #detail-page h1{
+    padding-left: 0px;
+    font-size: 2.2rem;
+  }
+}
+@media only screen and (min-width: 768px){
+  #right-info i{
+    display: none;
+  }
 }

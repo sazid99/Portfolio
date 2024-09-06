@@ -5,20 +5,6 @@
   margin-left: 13vw;
   display: flex;
 }
-@media only screen and (max-width: 768px) {
-  #full-screen {
-    margin: 0px;
-    padding: 0px;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column-reverse;
-  }
-  #third-item {
-    height: 370px;
-  }
-}
 
 .three-items {
   height: 100%;
@@ -30,14 +16,14 @@
   width: 40%;
 }
 #first-item h1 {
-  padding-top: 50px;
+  padding-top: 5vh;
 }
 #first-item p {
-  padding-top: 50px;
-  font-size: larger;
+  padding-top: 5vh;
+  font-size: 1.1rem;
 }
 #hire-resume {
-  padding-top: 50px;
+  padding-top: 3vh;
 }
 .hire-resume-btn {
   height: 3rem;
@@ -72,10 +58,9 @@
   height: 94%;
   object-fit: cover;
 }
-
 .bounce-items i {
-  font-size: 5rem;
-  margin-top: 9vh;
+  font-size: 4rem;
+  margin-top: 8.22vh;
   display: flex;
   justify-content: center;
 }
@@ -85,7 +70,7 @@
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-50px);
+    transform: translateY(-40px);
   }
   100% {
     transform: translateY(0);
@@ -101,10 +86,42 @@
   color: rgb(49, 214, 226);
 }
 #bounce-js {
-  animation: bounce 3.5s infinite;
+  animation: bounce 4s infinite;
   color: yellow;
+}
+#bounce-bootstrap {
+  animation: bounce 3.5s infinite;
+  color: rgb(124, 11, 216);
 }
 #bounce-react {
   animation: bounce 3s infinite;
   color: rgb(61, 210, 230);
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1380px){
+  #first-item h1 {
+    padding-top: 5vh;
+  }
+  #first-item p {
+    padding-top: 4vh;
+    font-size: 1.1rem;
+  }
+  #hire-resume {
+    padding-top: 5vh;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  #full-screen {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  #third-item {
+    height: 370px;
+  }
 }

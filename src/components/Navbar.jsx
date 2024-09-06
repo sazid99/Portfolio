@@ -51,9 +51,6 @@ function Navbar() {
                 Service
               </a>
               <a className="right-nav-info" href="#">
-                Portfolio
-              </a>
-              <a className="right-nav-info" href="#">
                 Blog
               </a>
               <a className="right-nav-info" href="#">
