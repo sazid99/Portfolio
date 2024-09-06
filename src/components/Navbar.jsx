@@ -45,16 +45,16 @@ function Navbar() {
             <h1 id="myName">Mahmuduzzaman Sazid</h1>
             <div id="right-info">
               <a className="right-nav-info" href="#">
-                About
-              </a>
-              <a className="right-nav-info" href="#">
                 Service
               </a>
               <a className="right-nav-info" href="#">
-                Blog
+                Projects
               </a>
               <a className="right-nav-info" href="#">
-                Career
+                Templates
+              </a>
+              <a className="right-nav-info" href="#">
+                Blog
               </a>
               <a className="right-nav-info" href="#">
                 Contact
