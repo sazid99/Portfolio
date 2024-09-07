@@ -119,20 +119,19 @@ function Navbar() {
                 </li>
               </ul>
 
-
               <ul className="nav mt-5 d-lg-none">
                 <li className="nav-item">
-                  <a className="nav-link" aria-label="Whatsapp" href="#">
+                  <a className="nav-link" aria-label="Whatsapp" href="https://api.whatsapp.com/send/?phone=8801989399577" target="_self">
                     <i className="fa-brands fa-whatsapp contact-icon whatsapp"></i>
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link " aria-label="Linkedin" href="#">
+                  <a className="nav-link " aria-label="Linkedin" href="https://www.linkedin.com/in/mahmuduzzaman-sazid" target="_self">
                     <i className="fa-brands fa-linkedin contact-icon linkedin"></i>
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" aria-label="Facebook" href="#">
+                  <a className="nav-link" aria-label="Facebook" href="https://www.facebook.com/mahmuduzzaman.sazid" target="_self">
                     <i className="fa-brands fa-facebook contact-icon facebook"></i>
                   </a>
                 </li>
@@ -142,17 +141,17 @@ function Navbar() {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" aria-label="Instagram" href="#">
+                  <a className="nav-link" aria-label="Instagram" href="https://www.instagram.com/@mahmuduzzamansazid" target="_self">
                     <i className="fa-brands fa-instagram contact-icon instagram"></i>
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" aria-label="Youtube" href="#">
+                  <a className="nav-link" aria-label="Youtube" href="https://www.youtube.com/@mahmuduzzamansazid" target="_self">
                     <i className="fa-brands fa-youtube contact-icon youtube"></i>
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" aria-label="Github" href="#">
+                  <a className="nav-link" aria-label="Github" href="https://github.com/sazid99" target="_self">
                     <i className="fa-brands fa-github contact-icon github"></i>
                   </a>
                 </li>

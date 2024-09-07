@@ -2,69 +2,69 @@ body {
   background-color: #686d76;
   color: white;
 }
-.navbar-brand{
+.navbar-brand {
   font-size: 1.6rem;
 }
 
-#nav-logo{
-  color: #63E6BE;
-  padding:10px;
+#nav-logo {
+  color: #63e6be;
+  padding: 10px;
   text-align: center;
   border-radius: 50%;
 }
 
-#nav-logo-s{
+#nav-logo-s {
   color: rgb(219, 24, 89);
   font-weight: bold;
 }
-#nav-logo-name{
+#nav-logo-name {
   color: rgb(198, 216, 40);
   font-weight: bold;
 }
 
-.navbar-toggler{
+.navbar-toggler {
   border: none;
 }
-.navbar-toggler:focus{
+.navbar-toggler:focus {
   box-shadow: none;
 }
 
-.offcanvas-title{
+.offcanvas-title {
   font-weight: bold;
   font-size: 1.4rem;
 }
-.offcanvas-body{
+.offcanvas-body {
   font-weight: bold;
   font-size: 1.1rem;
 }
 
-.nav-link:hover{
-  color: #63E6BE;
-  border-bottom: 2px solid #63E6BE; ;
+.nav-link:hover {
+  color: #63e6be;
+  border-bottom: 2px solid #63e6be;
 }
 
-.contact-icon{
-  font-size: 1.89rem;
+.contact-icon {
+  font-size: 2rem;
 }
 
-.whatsapp{
-  color: #25D366;
+.whatsapp {
+  color: #25d366;
 }
-.linkedin{
+.linkedin {
   color: #0087cf;
 }
-.facebook{
+.facebook {
   color: #0346d6;
 }
-.twitter{
-  color: #0877F2;
+.twitter {
+  color: #0877f2;
 }
-.instagram{
+.instagram {
   color: #c13584;
 }
-.youtube{
-  color: #FF0000;
+.youtube {
+  color: #ff0000;
 }
-.github{
+.github {
   color: #ffffff;
 }
