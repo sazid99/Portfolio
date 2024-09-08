@@ -1,12 +1,14 @@
 import "./App.css";
-import Carousel from "./components/Carousel";
+// import Carousel from "./components/Carousel";
 import Navbar from "./components/Navbar";
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
     <>
-      <Navbar/>
-      <Carousel/>
+      <Navbar />
+      <HomePage />
+      {/* <Carousel/> */}
     </>
   );
 }

@@ -1,10 +1,9 @@
 function Carousel() {
   return (
     <>
-    <div className="container-fluid">
       <div
         id="carouselExampleAutoplaying"
-        className="carousel slide p-0 m-0"
+        className="carousel slide p-0 mt-5"
         data-bs-ride="carousel"
       >
         <div className="carousel-inner">
@@ -54,7 +53,6 @@ function Carousel() {
           ></span>
           <span className="visually-hidden">Next</span>
         </button>
-      </div>
       </div>
     </>
   );

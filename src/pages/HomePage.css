@@ -1,0 +1,82 @@
+#section-1 {
+  margin-top: 65px;
+}
+
+.div-col-item {
+  height: 700px;
+}
+
+.div-col-item-2 {
+  border-bottom: 2px solid aqua;
+}
+
+.hire-resume-btn {
+  height: 3rem;
+  width: 12rem;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  background-color: rgb(72, 218, 84);
+  border: 2px solid tomato;
+  color: black;
+}
+.hire-resume-btn:hover {
+  height: 3.3rem;
+  width: 12.3rem;
+  font-size: 1.4rem;
+  font-size: larger;
+  color: white;
+  background-color: tomato;
+}
+
+.bounce-items i {
+  font-size: 4rem;
+  margin-top: 8vh;
+  display: flex;
+  justify-content: center;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-40px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+#bounce-html {
+  animation: bounce 3s infinite;
+  color: rgb(223, 135, 35);
+}
+#bounce-css {
+  animation: bounce 3.5s infinite;
+  color: rgb(49, 214, 226);
+}
+#bounce-js {
+  animation: bounce 4s infinite;
+  color: yellow;
+}
+#bounce-bootstrap {
+  animation: bounce 3.5s infinite;
+  color: rgb(124, 11, 216);
+}
+#bounce-react {
+  animation: bounce 3s infinite;
+  color: rgb(61, 210, 230);
+}
+.profile-picture img {
+  height: 480px;
+  padding-bottom: 5px;
+}
+.profile-picture-1 {
+  height: 480px;
+}
+.profile-picture-2 {
+  height: 220px;
+  padding: 5px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
