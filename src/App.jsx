@@ -1,14 +1,12 @@
 import "./App.css";
-import HeroSection from "./components/HeroSection";
+import Carousel from "./components/Carousel";
 import Navbar from "./components/Navbar";
-import Sidebar from "./components/Sidebar";
 
 function App() {
   return (
     <>
-      <Sidebar/>
       <Navbar/>
-      <HeroSection/>
+      <Carousel/>
     </>
   );
 }
